@@ -1,0 +1,85 @@
+
+:root {
+    --wr-gold: #f0e6d2; 
+    --wr-yellow: #3c76c8; 
+    --wr-blue-dark: #091428; 
+    --wr-blue-medium: #010a13; 
+    --wr-text-body: #a09b8c; 
+}
+
+/* Ajustes generales */
+body {
+    scroll-behavior: smooth;
+    font-family: 'Beaufort for LoL', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: var(--wr-blue-medium);
+    color: var(--wr-text-body);
+}
+
+/* Navbar */ 
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--wr-gold);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--wr-yellow);
+}
+
+.carousel-item {
+    height: 75vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.item-1 {
+    background-image: linear-gradient(rgba(0,10,20,0.5), rgba(0,10,20,0.7)), 
+    url('https://i.pinimg.com/1200x/b5/74/2d/b5742d02c59efbc883101d8625f48632.jpgs'); 
+}
+
+.item-2 {
+    background-image: linear-gradient(rgba(0,10,20,0.5), rgba(0,10,20,0.7)), 
+    url('https://i.pinimg.com/1200x/6d/71/f1/6d71f1371a05ab8a515946bb444c4742.jpg'); 
+}
+
+.item-3 {
+    background-image: linear-gradient(rgba(0,10,20,0.5), rgba(0,10,20,0.7)), 
+    url('https://i.pinimg.com/736x/fe/17/be/fe17be028caa00d5d0ce4e82b82bbc4f.jpg');
+}
+
+.bg-caption {
+    background-color: rgba(9, 20, 40, 0.85); 
+}
+
+
+.hover-up {
+    transition: all 0.3s ease;
+    border: 1px solid transparent !important;
+}
+
+.hover-up:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(200, 155, 60, 0.3) !important; 
+    border-color: var(--wr-yellow) !important;
+}
+
+.card-wr-img {
+    height: 220px;
+    object-fit: cover; 
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--wr-blue-dark);
+    color: var(--wr-yellow);
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(10deg); 
+}
+
+
+.hover-warning:hover {
+    color: var(--wr-yellow) !important;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Rift Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <h1>Wild Rift</h1>
+        <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Acerca</a></li>
+            <li><a href="#section1">Modo Juego</a></li>
+            <li><a href="#section2">Campeones</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="three-container" id="hero-canvas"></div>
+        <h2>Domina la Grieta</h2>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Wild Rift</h2>
+        <p>Un MOBA competitivo con acción rápida y estrategia intensa.</p>
+    </section>
+
+    <section id="section1" class="section">
+        <div class="three-container" id="scene2"></div>
+        <h2>Modo de Juego</h2>
+        <p>5v5, objetivos, torres y trabajo en equipo.</p>
+    </section>
+
+    <section id="section2" class="section">
+        <div class="three-container" id="scene3"></div>
+        <h2>Campeones</h2>
+        <p>Elige entre tanques, magos, asesinos y más.</p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Wild Rift Fan Page</p>
+    </footer>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/"
+        }
+    }
+    </script>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

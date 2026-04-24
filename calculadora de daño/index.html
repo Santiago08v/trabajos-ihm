@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Rift Damage Sim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="Titulo">WILD RIFT <span style="color: #c89b3c;">BATTLE</span></h1>
+
+    <div class="escenario">
+        <div class="personaje" id="campeon-aliado">
+            <div class="nombre">Garen (Aliado)</div>
+            <div class="BarraVida">
+                <div id="BarraVida-aliado" class="BarraVidaFill"></div>
+            </div>
+            <div class="stats">Vida: <span id="hp-aliado">500/500</span></div>
+        </div>
+
+        <div class="personaje" id="campeon-enemigo">
+            <div class="nombre">Darius (Nivel <span id="nivel-enemigo">1</span>)</div>
+            <div class="BarraVida">
+                <div id="BarraVida-enemigo" class="BarraVidaFill"></div>
+            </div>
+            <div class="stats">Vida: <span id="hp-enemigo">450/450</span></div>
+        </div>
+    </div>
+
+    <div id="log-combate" class="caja">¡Bienvenidos a la Grieta del Invocador!</div>
+
+    <div class="Atacar">
+        <button class="AtacarBoton" onclick="ejecutarAtaque()">USAR HABILIDAD</button>
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
+</html>

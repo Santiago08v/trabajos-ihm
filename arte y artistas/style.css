@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0f1c;
+    color: white;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 10;
+}
+
+.nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+}
+.hero h2 {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    font-size: 3rem;
+    text-shadow: 0 0 20px cyan;
+}
+
+.section, .about {
+    padding: 100px 20px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.three-container {
+    width: 100%;
+    height: 300px;
+    display: block;
+    filter: drop-shadow(0 0 20px rgba(0,255,255,0.4));
+}
+.footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
